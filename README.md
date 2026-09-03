@@ -1,3 +1,7 @@
+good. now check if my policy is correctly set as per this app.
+
+if need any modification then do modification and give me updated copy-paste ready in markdwon format
+
 # Privacy Policy
 
 **Effective Date:** August 28, 2026
