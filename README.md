@@ -1,7 +1,3 @@
-good. now check if my policy is correctly set as per this app.
-
-if need any modification then do modification and give me updated copy-paste ready in markdwon format
-
 # Privacy Policy
 
 **Effective Date:** August 28, 2026
@@ -29,9 +25,9 @@ To provide our core functionality, the App requires certain device permissions. 
 * **Why it is needed:** We use your device's camera to power the "Smart Scan" feature, allowing you to scan physical documents.
 * **How it is used:** The camera feed is processed locally using on-device machine learning (Google ML Kit) to detect document edges and enhance image quality. The resulting images and PDFs are saved directly to your device storage. We do not transmit your camera feed or photos to any external servers.
 
-### b) Storage / Files Permission (Storage Access Framework)
-* **Why it is needed:** As a comprehensive PDF editor, the App requires access to your device's file system to read, modify, and save PDF documents and images.
-* **How it is used:** The App utilizes the modern Android Storage Access Framework (SAF) and secure system file pickers to request access *only* to the specific folders or files you choose to open. We do not request broad access to your entire photo gallery or file system.
+### b) Storage / All Files Access Permission
+* **Why it is needed:** As a comprehensive PDF editor, the App requires access to your device's file system to read, modify, organize, and save PDF documents.
+* **How it is used:** To provide the built-in PDF Document Manager feature, the App may request "All Files Access" (`MANAGE_EXTERNAL_STORAGE`). This allows the App to automatically discover, list, and perform bulk operations on PDF files scattered across your device's directories. We strictly use this permission to manage PDF documents; we do not read, collect, or transmit your personal photos, videos, or other non-document files. For simple, single-file operations, the App also utilizes the privacy-friendly Android Storage Access Framework (SAF).
 
 ## 4. Third-Party Services
 While our App operates primarily offline, we utilize specific third-party services to ensure the App functions correctly and to help us improve it:
